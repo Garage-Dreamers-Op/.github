@@ -1,0 +1,27 @@
+name: Task
+description: Work that is neither a feature nor a bug, such as setup, refactoring or docs.
+type: Task
+body:
+  - type: markdown
+    attributes:
+      value: After creating the issue, set its parent Sprint under **Relationships**.
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs doing
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+    validations:
+      required: true
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      value: |
+        - [ ]
+    validations:
+      required: true

@@ -1,0 +1,38 @@
+name: Sprint
+description: A scope of work planned in Notion. Its work items are added as sub-issues.
+type: Sprint
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: The outcome this sprint delivers, in one or two sentences.
+    validations:
+      required: true
+  - type: input
+    id: notion
+    attributes:
+      label: Notion page
+      description: Link to the sprint page in Notion.
+      placeholder: https://www.notion.so/...
+    validations:
+      required: true
+  - type: textarea
+    id: in-scope
+    attributes:
+      label: In scope
+      description: What this sprint includes.
+    validations:
+      required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this sprint deliberately leaves out.
+  - type: textarea
+    id: done-when
+    attributes:
+      label: Done when
+      description: How we know the sprint succeeded.
+    validations:
+      required: true
