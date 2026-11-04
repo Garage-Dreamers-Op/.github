@@ -1,5 +1,5 @@
 name: Sprint
-description: A scope of work planned in Notion. Its work items are added as sub-issues.
+description: A time box with one goal, planned in Notion. Its work items are added as sub-issues.
 type: Sprint
 body:
   - type: textarea
