@@ -25,3 +25,8 @@ body:
         - [ ]
     validations:
       required: true
+  - type: textarea
+    id: out-of-scope
+    attributes:
+      label: Out of scope
+      description: What this work must not do or touch, and why or which issue owns it.
