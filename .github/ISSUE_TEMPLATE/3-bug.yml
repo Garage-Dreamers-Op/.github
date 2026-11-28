@@ -2,6 +2,13 @@ name: Bug
 description: Something is broken or behaves unexpectedly.
 type: Bug
 body:
+  - type: input
+    id: opened-by
+    attributes:
+      label: Opened by
+      description: Your name and the role you open it in, as "<name> (<role>)".
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: After creating the issue, set its parent Sprint under **Relationships**.

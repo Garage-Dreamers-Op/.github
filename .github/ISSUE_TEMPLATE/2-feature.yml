@@ -2,6 +2,13 @@ name: Feature
 description: New behaviour for users of the product.
 type: Feature
 body:
+  - type: input
+    id: opened-by
+    attributes:
+      label: Opened by
+      description: Your name and the role you open it in, as "<name> (<role>)".
+    validations:
+      required: true
   - type: markdown
     attributes:
       value: After creating the issue, set its parent Sprint under **Relationships**.

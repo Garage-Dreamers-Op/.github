@@ -2,6 +2,13 @@ name: Sprint
 description: A time box with one goal, planned in Notion. Its work items are added as sub-issues.
 type: Sprint
 body:
+  - type: input
+    id: opened-by
+    attributes:
+      label: Opened by
+      description: Your name and the role you open it in, as "<name> (<role>)".
+    validations:
+      required: true
   - type: textarea
     id: goal
     attributes:
